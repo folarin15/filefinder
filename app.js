@@ -58,7 +58,7 @@ const students = [
   { name: "Rabiu Oluwadamilare Racheal", matric: "256544" },
   { name: "Raji Hammedah", matric: "256545" },
   { name: "Raphael Paul Akinkunmi", matric: "256546" },
-  { name: "Shodipe Akorede Samuel", matric: "256489" },
+  { name: "Shodipe Akorede Samuel", matric: "256547" },
   { name: "Sowunmi Balikis Omowunmi", matric: "256548" },
   { name: "Tijani Mariam", matric: "256459" },
   { name: "Tijuiku Nabilat Olatundun", matric: "256550" },
