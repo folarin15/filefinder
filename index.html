@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Physiology Word Practical Finder</title>
+    <meta
+      name="description"
+      content="Find and download your physiology word practical files using your matric number."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="page-shell">
+      <section class="hero">
+        <p class="eyebrow">PhysioK29 Word Practicals</p>
+        <h1>Find your practical files</h1>
+        <p>
+          Enter your matric number exactly as given. If your record is found,
+          your personal Word Practical 1 and Word Practical 2 files will appear for download.
+        </p>
+      </section>
+
+      <section class="lookup-panel" aria-labelledby="lookup-title">
+        <div class="panel-heading">
+          <p class="eyebrow">Student lookup</p>
+          <h2 id="lookup-title">Download by matric number</h2>
+        </div>
+
+        <form id="lookup-form" class="lookup-form">
+          <label for="matric">Matric number</label>
+          <div class="input-row">
+            <input
+              id="matric"
+              name="matric"
+              inputmode="numeric"
+              autocomplete="off"
+              placeholder="e.g. 256475"
+              required
+            />
+            <button type="submit">Find file</button>
+          </div>
+        </form>
+
+        <div id="result" class="result-box" aria-live="polite">
+          <p class="muted">No search yet.</p>
+        </div>
+      </section>
+
+      <section class="note-panel">
+        <h2>For upload</h2>
+        <p>
+          The practical files are stored inside the <strong>files</strong> folder.
+          Students only need their matric number to find the correct downloads.
+        </p>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
